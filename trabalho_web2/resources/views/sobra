@@ -1,0 +1,9 @@
+<td>
+                                    <a href='{{ route('NovoLogin', ['id' => $linha->id]) }}' class='btn btn-success'>
+                                        <li class='fa fa-pencil'></li>
+                                    </a>
+                                    |
+                                    <a href='{{ route('categoria_ex', ['id' => $linha->id]) }}' class='btn btn-danger'>
+                                        <li class='fa fa-trash'></li>
+                                    </a>
+                                </td>
